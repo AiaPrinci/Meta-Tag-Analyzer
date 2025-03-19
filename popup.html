@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MetaTag Analyzer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-icons@0.344.0/font/lucide.min.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>MetaTag Analyzer</h1>
+      <p class="subtitle">Analyse SEO instantanée</p>
+    </header>
+
+    <main>
+      <div class="section">
+        <h2>Meta Tags Essentiels</h2>
+        <div class="meta-info">
+          <div class="info-group" id="titleInfo">
+            <label>Title</label>
+            <div class="content-box">
+              <p class="content"></p>
+              <span class="length-indicator"></span>
+              <button class="copy-btn" data-type="title">
+                <i class="lucide lucide-copy"></i>
+                Copier
+              </button>
+            </div>
+          </div>
+
+          <div class="info-group" id="descriptionInfo">
+            <label>Meta Description</label>
+            <div class="content-box">
+              <p class="content"></p>
+              <span class="length-indicator"></span>
+              <button class="copy-btn" data-type="description">
+                <i class="lucide lucide-copy"></i>
+                Copier
+              </button>
+            </div>
+          </div>
+
+          <div class="info-group" id="canonicalInfo">
+            <label>Canonical</label>
+            <div class="content-box">
+              <p class="content"></p>
+              <button class="copy-btn" data-type="canonical">
+                <i class="lucide lucide-copy"></i>
+                Copier
+              </button>
+            </div>
+          </div>
+
+          <div class="info-group" id="robotsInfo">
+            <label>Robots</label>
+            <div class="content-box">
+              <p class="content"></p>
+              <button class="copy-btn" data-type="robots">
+                <i class="lucide lucide-copy"></i>
+                Copier
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Structure Headings</h2>
+        <div id="headingsStructure" class="headings-container"></div>
+      </div>
+
+      <div class="section">
+        <h2>Open Graph Tags</h2>
+        <div id="ogTags" class="og-container"></div>
+      </div>
+
+      <div class="section">
+        <h2>Analyse SEO</h2>
+        <div id="seoAnalysis"></div>
+      </div>
+
+      <div class="review-section">
+        <h2>Aidez-nous à nous améliorer</h2>
+        <a href="https://g.page/r/CaWr6uhau0-hEBM/review" target="_blank" class="review-btn">
+          <i class="lucide lucide-star"></i>
+          Laisser un avis sur Google
+        </a>
+      </div>
+    </main>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
